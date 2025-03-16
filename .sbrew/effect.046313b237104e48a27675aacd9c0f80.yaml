@@ -1,0 +1,113 @@
+﻿FormatVersion: 7
+Name: "LyricsPreKiaiEng 1"
+Script: "LyricsPreKiaiEng"
+Multithreaded: No
+Config:
+  SubtitlesPath:
+    Type: "System.String"
+    Value: "lyrics.srt"
+    DisplayName: "Subtitles Path"
+  SpritesPath:
+    Type: "System.String"
+    Value: "sb/lyrics/engprekiai"
+    DisplayName: "Sprites Path"
+  TimestampSplit:
+    Type: "System.String"
+    Value: ""
+    DisplayName: "Timestamp Split"
+  TracePath:
+    Type: "System.String"
+    Value: ""
+    DisplayName: "Trace Path"
+  FontSize:
+    Type: "System.Int32"
+    Value: "40"
+    DisplayName: "Font Size"
+  FontScale:
+    Type: "System.Single"
+    Value: "0.005"
+    DisplayName: "Font Scale"
+  FontColor:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "1,1,1,1"
+    DisplayName: "Font Color"
+  FontStyle:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Font Style"
+    AllowedValues:
+      Regular: "0"
+      Bold: "1"
+      Italic: "2"
+      Underline: "4"
+      Strikeout: "8"
+  OutlineThickness:
+    Type: "System.Int32"
+    Value: "3"
+    DisplayName: "Outline Thickness"
+  OutlineColor:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "0.19607843,0.19607843,0.19607843,0.78431374"
+    DisplayName: "Outline Color"
+  ShadowThickness:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Shadow Thickness"
+  ShadowColor:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "0,0,0,0.39215687"
+    DisplayName: "Shadow Color"
+  Padding:
+    Type: "OpenTK.Vector2"
+    Value: "60,60"
+  SubtitleX:
+    Type: "System.Single"
+    Value: "240"
+    DisplayName: "Subtitle X"
+  SubtitleY:
+    Type: "System.Single"
+    Value: "400"
+    DisplayName: "Subtitle Y"
+  StartTrace:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Start Trace"
+  EndTrace:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "End Trace"
+  TrimTransparency:
+    Type: "System.Boolean"
+    Value: "True"
+    DisplayName: "Trim Transparency"
+  EffectsOnly:
+    Type: "System.Boolean"
+    Value: "False"
+    DisplayName: "Effects Only"
+  Debug:
+    Type: "System.Boolean"
+    Value: "False"
+  Origin:
+    Type: "System.Int32"
+    Value: "4"
+    AllowedValues:
+      TopLeft: "0"
+      TopCentre: "1"
+      TopRight: "2"
+      CentreLeft: "3"
+      Centre: "4"
+      CentreRight: "5"
+      BottomLeft: "6"
+      BottomCentre: "7"
+      BottomRight: "8"
+  RandomSeed:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Random Seed"
+    BeginsGroup: "Common"
+Layers:
+  f1fc3e3fc74e4cb5b812a43daadf80d8:
+    Name: "lyrics"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes

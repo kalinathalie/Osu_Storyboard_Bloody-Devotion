@@ -1,0 +1,50 @@
+﻿FormatVersion: 7
+Name: "Intro 1"
+Script: "Intro"
+Multithreaded: No
+Config:
+  StartTime:
+    Type: "System.Int32"
+    Value: "815"
+    DisplayName: "Start Time"
+    BeginsGroup: "Timing"
+  EndTime:
+    Type: "System.Int32"
+    Value: "5747"
+    DisplayName: "End Time"
+  BGBlur:
+    Type: "System.String"
+    Value: "sb/bg-blur.jpg"
+    DisplayName: "BG Blur"
+    BeginsGroup: "Sprites"
+  Opacity:
+    Type: "System.Double"
+    Value: "0.3"
+  Akatsuki:
+    Type: "System.String"
+    Value: "sb/akatsuki-records-transparent-white.png"
+  Black:
+    Type: "System.String"
+    Value: "sb/flash.png"
+  Vig:
+    Type: "System.String"
+    Value: "sb/vig.png"
+  SakuyaImage:
+    Type: "System.String"
+    Value: "sb/anime/medium-sakuya-gray.png"
+    DisplayName: "Sakuya Image"
+  DotMask:
+    Type: "System.String"
+    Value: "sb/dot-mask.png"
+    DisplayName: "Dot Mask"
+  RandomSeed:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Random Seed"
+    BeginsGroup: "Common"
+Layers:
+  f23c0baa251b40419685dab06d9550c5:
+    Name: ""
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes

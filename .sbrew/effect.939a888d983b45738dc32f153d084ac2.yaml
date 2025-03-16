@@ -1,0 +1,60 @@
+﻿FormatVersion: 7
+Name: "LyricsPreKiai 1"
+Script: "LyricsPreKiai"
+Multithreaded: No
+Config:
+  SpritesPath:
+    Type: "System.String"
+    Value: "sb/lyrics/kanjiprekiai"
+    DisplayName: "Sprites Path"
+  FontSize:
+    Type: "System.Int32"
+    Value: "60"
+    DisplayName: "Font Size"
+  FontColor:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "1,0,0,1"
+    DisplayName: "Font Color"
+  FontStyle:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Font Style"
+    AllowedValues:
+      Regular: "0"
+      Bold: "1"
+      Italic: "2"
+      Underline: "4"
+      Strikeout: "8"
+  ShadowThickness:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Shadow Thickness"
+  ShadowColor:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "0,0,0,0.39215687"
+    DisplayName: "Shadow Color"
+  Padding:
+    Type: "OpenTK.Vector2"
+    Value: "0,0"
+  pixel:
+    Type: "System.String"
+    Value: "sb/pixel.png"
+  TrimTransparency:
+    Type: "System.Boolean"
+    Value: "True"
+    DisplayName: "Trim Transparency"
+  EffectsOnly:
+    Type: "System.Boolean"
+    Value: "False"
+    DisplayName: "Effects Only"
+  RandomSeed:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Random Seed"
+    BeginsGroup: "Common"
+Layers:
+  1e596a26b44946ae898790dc482fe044:
+    Name: "lyrics"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes

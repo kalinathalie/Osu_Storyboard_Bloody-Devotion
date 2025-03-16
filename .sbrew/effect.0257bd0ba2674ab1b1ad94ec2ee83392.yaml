@@ -1,0 +1,115 @@
+﻿FormatVersion: 7
+Name: "LyricsEngKiai 1"
+Script: "LyricsEngKiai"
+Multithreaded: No
+Config:
+  SubtitlesPath:
+    Type: "System.String"
+    Value: "srt/lyricslastkiai.srt"
+    DisplayName: "Subtitles Path"
+  SubtitleY:
+    Type: "System.Single"
+    Value: "25"
+    DisplayName: "Subtitle Y"
+  FontName:
+    Type: "System.String"
+    Value: "fonts/DotGothic16-Regular.ttf"
+    DisplayName: "Font Name"
+    BeginsGroup: "Font"
+  SpritesPath:
+    Type: "System.String"
+    Value: "sb/lyrics/lastkiaieng"
+    DisplayName: "Sprites Path"
+  FontSize:
+    Type: "System.Int32"
+    Value: "24"
+    DisplayName: "Font Size"
+  FontScale:
+    Type: "System.Single"
+    Value: "0.5"
+    DisplayName: "Font Scale"
+  FontColor:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "0.6546044,0,0,1"
+    DisplayName: "Font Color"
+  FontStyle:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Font Style"
+    AllowedValues:
+      Regular: "0"
+      Bold: "1"
+      Italic: "2"
+      Underline: "4"
+      Strikeout: "8"
+  OutlineThickness:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Outline Thickness"
+    BeginsGroup: "Outline"
+  OutlineColor:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "0.19607843,0.19607843,0.19607843,0.78431374"
+    DisplayName: "Outline Color"
+  ShadowThickness:
+    Type: "System.Int32"
+    Value: "3"
+    DisplayName: "Shadow Thickness"
+    BeginsGroup: "Shadow"
+  ShadowColor:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "0,0,0,0.39215687"
+    DisplayName: "Shadow Color"
+  GlowRadius:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Glow Radius"
+    BeginsGroup: "Glow"
+  GlowColor:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "1,1,1,0.39215687"
+    DisplayName: "Glow Color"
+  GlowAdditive:
+    Type: "System.Boolean"
+    Value: "True"
+    DisplayName: "Glow Additive"
+  PerCharacter:
+    Type: "System.Boolean"
+    Value: "True"
+    DisplayName: "Per Character"
+    BeginsGroup: "Misc"
+  TrimTransparency:
+    Type: "System.Boolean"
+    Value: "True"
+    DisplayName: "Trim Transparency"
+  EffectsOnly:
+    Type: "System.Boolean"
+    Value: "False"
+    DisplayName: "Effects Only"
+  Padding:
+    Type: "OpenTK.Vector2"
+    Value: "0,0"
+  Origin:
+    Type: "System.Int32"
+    Value: "4"
+    AllowedValues:
+      TopLeft: "0"
+      TopCentre: "1"
+      TopRight: "2"
+      CentreLeft: "3"
+      Centre: "4"
+      CentreRight: "5"
+      BottomLeft: "6"
+      BottomCentre: "7"
+      BottomRight: "8"
+  RandomSeed:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Random Seed"
+    BeginsGroup: "Common"
+Layers:
+  6d21920a992b49deae6359ad9c096d84:
+    Name: ""
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes

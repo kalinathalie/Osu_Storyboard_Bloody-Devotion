@@ -1,0 +1,84 @@
+﻿FormatVersion: 7
+Name: "VerseOne 1"
+Script: "VerseOne"
+Multithreaded: No
+Config:
+  StartTime:
+    Type: "System.Int32"
+    Value: "27117"
+    DisplayName: "Start Time"
+  EndTime:
+    Type: "System.Int32"
+    Value: "53418"
+    DisplayName: "End Time"
+  Sakuya1WhiteImage:
+    Type: "System.String"
+    Value: "sb/anime/sakuya1-mini-shadow2.png"
+    DisplayName: "Sakuya 1 White Image"
+  Sakuya1Image:
+    Type: "System.String"
+    Value: "sb/anime/sakuya1-mini_waifu2x_art_noise1_scale.png"
+    DisplayName: "Sakuya 1 Image"
+  Sakuya2WhiteImage:
+    Type: "System.String"
+    Value: "sb/anime/sakuya2-mini-shadow2.png"
+    DisplayName: "Sakuya 2 White Image"
+  Sakuya2Image:
+    Type: "System.String"
+    Value: "sb/anime/sakuya2-mini_waifu2x_art_noise1_scale.png"
+    DisplayName: "Sakuya 2 Image"
+  Flash:
+    Type: "System.String"
+    Value: "sb/flash.png"
+  Pixel:
+    Type: "System.String"
+    Value: "sb/pixel.png"
+  Vig:
+    Type: "System.String"
+    Value: "sb/vig.png"
+  KnifeImage:
+    Type: "System.String"
+    Value: "sb/knife.png"
+    DisplayName: "Knife Image"
+  BigClock:
+    Type: "System.String"
+    Value: "sb/clock/clock.png"
+    DisplayName: "Big Clock"
+  BigHand:
+    Type: "System.String"
+    Value: "sb/clock/big.png"
+    DisplayName: "Big Hand"
+  SmallHand:
+    Type: "System.String"
+    Value: "sb/clock/small.png"
+    DisplayName: "Small Hand"
+  MidCircle:
+    Type: "System.String"
+    Value: "sb/particle.png"
+    DisplayName: "Mid Circle"
+  RandomSeed:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Random Seed"
+    BeginsGroup: "Common"
+Layers:
+  3f570048521646f0b8f0903831006592:
+    Name: "BGVerse"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  395dc42eee344357be34225c6216efe9:
+    Name: "SteamBackground"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  71be5f77bfd14d5ba88d85954f5df76f:
+    Name: "Main"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  ac19811c867540bbbc51e8df2757604c:
+    Name: ""
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes

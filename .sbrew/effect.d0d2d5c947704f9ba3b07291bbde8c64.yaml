@@ -1,0 +1,79 @@
+﻿FormatVersion: 7
+Name: "Bridge 3"
+Script: "Bridge"
+Multithreaded: No
+Config:
+  StartTime:
+    Type: "System.Int32"
+    Value: "178349"
+    DisplayName: "Start Time"
+  EndTime:
+    Type: "System.Int32"
+    Value: "184924"
+    DisplayName: "End Time"
+  KnifeImage:
+    Type: "System.String"
+    Value: "sb/knife.png"
+    DisplayName: "Knife Image"
+  Line:
+    Type: "System.String"
+    Value: "sb/flash.png"
+  Sakuya1WhiteImage:
+    Type: "System.String"
+    Value: "sb/anime/sakuya1-white.png"
+    DisplayName: "Sakuya 1 White Image"
+  Sakuya1Image:
+    Type: "System.String"
+    Value: "sb/anime/sakuya1.png"
+    DisplayName: "Sakuya 1 Image"
+  Sakuya2WhiteImage:
+    Type: "System.String"
+    Value: "sb/anime/sakuya2-white.png"
+    DisplayName: "Sakuya 2 White Image"
+  Sakuya2Image:
+    Type: "System.String"
+    Value: "sb/anime/sakuya2.png"
+    DisplayName: "Sakuya 2 Image"
+  Sakuya3WhiteImage:
+    Type: "System.String"
+    Value: "sb/anime/sakuya3-white.png"
+    DisplayName: "Sakuya 3 White Image"
+  Sakuya3Image:
+    Type: "System.String"
+    Value: "sb/anime/sakuya3.png"
+    DisplayName: "Sakuya 3 Image"
+  Sakuya4WhiteImage:
+    Type: "System.String"
+    Value: "sb/anime/sakuya4-white.png"
+    DisplayName: "Sakuya 4 White Image"
+  Sakuya4Image:
+    Type: "System.String"
+    Value: "sb/anime/sakuya4.png"
+    DisplayName: "Sakuya 4 Image"
+  Circle:
+    Type: "System.String"
+    Value: "sb/c4.png"
+  Pixel:
+    Type: "System.String"
+    Value: "sb/pixel.png"
+  RandomSeed:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Random Seed"
+    BeginsGroup: "Common"
+Layers:
+  fe9fcfb2a0d947b3820f634dde3182ea:
+    Name: "BridgeBackground"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  8e788c573f2f4d779664fa979f2dc52d:
+    Name: "Bridge"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  2a69cb918c74453785c4c5fcaa3cab4c:
+    Name: "BridgeTop"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes

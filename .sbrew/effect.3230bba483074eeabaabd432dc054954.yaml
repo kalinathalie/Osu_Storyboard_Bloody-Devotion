@@ -1,0 +1,56 @@
+﻿FormatVersion: 7
+Name: "Clock 1"
+Script: "Clock"
+Multithreaded: No
+Config:
+  BigClock:
+    Type: "System.String"
+    Value: "sb/clock/clock.png"
+    DisplayName: "Big Clock"
+  BigHand:
+    Type: "System.String"
+    Value: "sb/clock/big.png"
+    DisplayName: "Big Hand"
+  SmallHand:
+    Type: "System.String"
+    Value: "sb/clock/small.png"
+    DisplayName: "Small Hand"
+  StartTime:
+    Type: "System.Int32"
+    Value: "13966"
+    DisplayName: "Start Time"
+  EndTime:
+    Type: "System.Int32"
+    Value: "20542"
+    DisplayName: "End Time"
+  MidCircle:
+    Type: "System.String"
+    Value: "sb/particle.png"
+    DisplayName: "Mid Circle"
+  Steam1:
+    Type: "System.String"
+    Value: "sb/steam/g1.png"
+    DisplayName: "Steam 1"
+  Steam2:
+    Type: "System.String"
+    Value: "sb/steam/g2.png"
+    DisplayName: "Steam 2"
+  Steam3:
+    Type: "System.String"
+    Value: "sb/steam/g3.png"
+    DisplayName: "Steam 3"
+  Steam4:
+    Type: "System.String"
+    Value: "sb/steam/g4.png"
+    DisplayName: "Steam 4"
+  RandomSeed:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Random Seed"
+    BeginsGroup: "Common"
+Layers:
+  770ee0e50d85459aa28a2f54a5806fe5:
+    Name: "Clock"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes

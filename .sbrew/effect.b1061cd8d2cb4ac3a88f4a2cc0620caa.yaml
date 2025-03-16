@@ -1,0 +1,33 @@
+﻿FormatVersion: 7
+Name: "Background 1"
+Script: "Background"
+Multithreaded: No
+Config:
+  StartTime:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Start Time"
+    BeginsGroup: "Timing"
+  EndTime:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "End Time"
+  SpritePath:
+    Type: "System.String"
+    Value: ""
+    DisplayName: "Sprite Path"
+    BeginsGroup: "Sprite"
+  Opacity:
+    Type: "System.Double"
+    Value: "0"
+  RandomSeed:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Random Seed"
+    BeginsGroup: "Common"
+Layers:
+  c651c774912b406989d7929ef1d4b095:
+    Name: ""
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes

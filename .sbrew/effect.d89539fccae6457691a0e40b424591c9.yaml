@@ -1,0 +1,105 @@
+﻿FormatVersion: 7
+Name: "LastPreKiaiKanji 1"
+Script: "LastPreKiaiKanji"
+Multithreaded: No
+Config:
+  SubtitlesPath:
+    Type: "System.String"
+    Value: "srt/lastprekiai.srt"
+    DisplayName: "Subtitles Path"
+  FontName:
+    Type: "System.String"
+    Value: "Verdana"
+    DisplayName: "Font Name"
+  SpritesPath:
+    Type: "System.String"
+    Value: "sb/lyrics/kanjiprelastkiai"
+    DisplayName: "Sprites Path"
+  TimestampSplit:
+    Type: "System.String"
+    Value: "204634,208657,211945,217595"
+    DisplayName: "Timestamp Split"
+  FontSize:
+    Type: "System.Int32"
+    Value: "40"
+    DisplayName: "Font Size"
+  FontScale:
+    Type: "System.Single"
+    Value: "0.6"
+    DisplayName: "Font Scale"
+  FontColor:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "1,1,1,1"
+    DisplayName: "Font Color"
+  FontStyle:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Font Style"
+    AllowedValues:
+      Regular: "0"
+      Bold: "1"
+      Italic: "2"
+      Underline: "4"
+      Strikeout: "8"
+  OutlineThickness:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Outline Thickness"
+  OutlineColor:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "0.19607843,0.19607843,0.19607843,0.78431374"
+    DisplayName: "Outline Color"
+  ShadowThickness:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Shadow Thickness"
+  ShadowColor:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "0.41169637,0,0,0"
+    DisplayName: "Shadow Color"
+  Padding:
+    Type: "OpenTK.Vector2"
+    Value: "0,0"
+  SubtitleX:
+    Type: "System.Single"
+    Value: "670"
+    DisplayName: "Subtitle X"
+  SubtitleY:
+    Type: "System.Single"
+    Value: "120"
+    DisplayName: "Subtitle Y"
+  TrimTransparency:
+    Type: "System.Boolean"
+    Value: "True"
+    DisplayName: "Trim Transparency"
+  EffectsOnly:
+    Type: "System.Boolean"
+    Value: "False"
+    DisplayName: "Effects Only"
+  Debug:
+    Type: "System.Boolean"
+    Value: "False"
+  Origin:
+    Type: "System.Int32"
+    Value: "4"
+    AllowedValues:
+      TopLeft: "0"
+      TopCentre: "1"
+      TopRight: "2"
+      CentreLeft: "3"
+      Centre: "4"
+      CentreRight: "5"
+      BottomLeft: "6"
+      BottomCentre: "7"
+      BottomRight: "8"
+  RandomSeed:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Random Seed"
+    BeginsGroup: "Common"
+Layers:
+  edb8d6dc8eb84217a02f109ede570966:
+    Name: "Kanji"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes

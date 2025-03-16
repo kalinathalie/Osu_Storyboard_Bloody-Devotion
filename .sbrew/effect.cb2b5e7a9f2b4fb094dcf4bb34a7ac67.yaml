@@ -1,0 +1,53 @@
+﻿FormatVersion: 7
+Name: "SakuyaShadow 2"
+Script: "SakuyaShadow"
+Multithreaded: No
+Config:
+  Background:
+    Type: "System.String"
+    Value: "sb/moon.png"
+  Black:
+    Type: "System.String"
+    Value: "sb/flash.png"
+  ShadowImage:
+    Type: "System.String"
+    Value: "sb/sakuya/back/player_back_.png"
+    DisplayName: "Shadow Image"
+  SakuyaTimeStop:
+    Type: "System.String"
+    Value: "sb/sakuya/timestop/player_time_stop_.png"
+    DisplayName: "Sakuya Time Stop"
+  SakuyaStand:
+    Type: "System.String"
+    Value: "sb/sakuya/stand/player_slow_stand_.png"
+    DisplayName: "Sakuya Stand"
+  StartTime:
+    Type: "System.Int32"
+    Value: "132322"
+    DisplayName: "Start Time"
+  EndTime:
+    Type: "System.Int32"
+    Value: "149582"
+    DisplayName: "End Time"
+  FogImage:
+    Type: "System.String"
+    Value: "sb/fog1.png"
+    DisplayName: "Fog Image"
+  Circle:
+    Type: "System.String"
+    Value: "sb/c3.png"
+  CircleBig:
+    Type: "System.String"
+    Value: "sb/c3.png"
+    DisplayName: "Circle Big"
+  RandomSeed:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Random Seed"
+    BeginsGroup: "Common"
+Layers:
+  279cfe8d2e0b4290b87207f80424275d:
+    Name: ""
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes

@@ -1,0 +1,37 @@
+﻿FormatVersion: 7
+Name: "BloodMoon 1"
+Script: "BloodMoon"
+Multithreaded: No
+Config:
+  Background:
+    Type: "System.String"
+    Value: "sb/bloodmoon2.jpg"
+  Black:
+    Type: "System.String"
+    Value: "sb/flash.png"
+  BatAnimation:
+    Type: "System.String"
+    Value: "sb/remilia/remi_bat_base_.png"
+    DisplayName: "Bat Animation"
+  Pixel:
+    Type: "System.String"
+    Value: "sb/pixel.png"
+  StartTime:
+    Type: "System.Int32"
+    Value: "191500"
+    DisplayName: "Start Time"
+  EndTime:
+    Type: "System.Int32"
+    Value: "204650"
+    DisplayName: "End Time"
+  RandomSeed:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Random Seed"
+    BeginsGroup: "Common"
+Layers:
+  a094ae93ee144088a6a4c48937f35847:
+    Name: "BloodMoon"
+    OsbLayer: Background
+    DiffSpecific: Yes
+    Visible: Yes

@@ -1,0 +1,125 @@
+﻿FormatVersion: 7
+Name: "KiaiSecond 1"
+Script: "KiaiSecond"
+Multithreaded: No
+Config:
+  Background:
+    Type: "System.String"
+    Value: "sb/stage/background.png"
+  Sakura:
+    Type: "System.String"
+    Value: "sb/stage/sakuraF.png"
+  Cirno:
+    Type: "System.String"
+    Value: "sb/cirno/cirno_stand_.png"
+  FlashImage:
+    Type: "System.String"
+    Value: "sb/flash.png"
+    DisplayName: "Flash Image"
+  CircleBig:
+    Type: "System.String"
+    Value: "sb/c3.png"
+    DisplayName: "Circle Big"
+  SakuyaSpriteAttack:
+    Type: "System.String"
+    Value: "sb/sakuya/run_attack/player_run_attack_.png"
+    DisplayName: "Sakuya Sprite Attack"
+  SakuyaStopTime:
+    Type: "System.String"
+    Value: "sb/sakuya/timestop/player_time_stop_.png"
+    DisplayName: "Sakuya Stop Time"
+  SakuyaSpriteRun:
+    Type: "System.String"
+    Value: "sb/sakuya/run/player_run_.png"
+    DisplayName: "Sakuya Sprite Run"
+  SakuyaSpriteRunStart:
+    Type: "System.String"
+    Value: "sb/sakuya/runStart/player_run_start_.png"
+    DisplayName: "Sakuya Sprite Run Start"
+  Fadas:
+    Type: "System.String"
+    Value: "sb/yousei/yousei_troca_stand_.png"
+  Knife:
+    Type: "System.String"
+    Value: "sb/sakuya/bullet_sprite2.png"
+  Bomb:
+    Type: "System.String"
+    Value: "sb/bomb/bomb_effect_.png"
+  SakuyaSpriteRunBack:
+    Type: "System.String"
+    Value: "sb/sakuya/runBack/player_run_back_.png"
+    DisplayName: "Sakuya Sprite Run Back"
+  SakuyaSpriteRunStop:
+    Type: "System.String"
+    Value: "sb/sakuya/runStop/player_run_stop_.png"
+    DisplayName: "Sakuya Sprite Run Stop"
+  SakuyaSpriteStop:
+    Type: "System.String"
+    Value: "sb/sakuya/stop/player_fight_.png"
+    DisplayName: "Sakuya Sprite Stop"
+  SakuyaSpriteSlide:
+    Type: "System.String"
+    Value: "sb/sakuya/sliding/player_sliding_.png"
+    DisplayName: "Sakuya Sprite Slide"
+  SakuyaSpriteSlideSmoke:
+    Type: "System.String"
+    Value: "sb/sakuya/sliding/smoke_anim_.png"
+    DisplayName: "Sakuya Sprite Slide Smoke"
+  SakuyaSpriteJump1:
+    Type: "System.String"
+    Value: "sb/sakuya/jump/player_jump_.png"
+    DisplayName: "Sakuya Sprite Jump 1"
+  SakuyaSpriteJump2:
+    Type: "System.String"
+    Value: "sb/sakuya/jump/player_2ndjump_.png"
+    DisplayName: "Sakuya Sprite Jump 2"
+  SakuyaSpriteGliding:
+    Type: "System.String"
+    Value: "sb/sakuya/gliding/player_gliding_.png"
+    DisplayName: "Sakuya Sprite Gliding"
+  ItemKnife:
+    Type: "System.String"
+    Value: "sb/sakuya/item_time_up.png"
+    DisplayName: "Item Knife"
+  ItemCircle:
+    Type: "System.String"
+    Value: "sb/c2.png"
+    DisplayName: "Item Circle"
+  StartTime:
+    Type: "System.Int32"
+    Value: "152048"
+    DisplayName: "Start Time"
+  EndTime:
+    Type: "System.Int32"
+    Value: "178349"
+    DisplayName: "End Time"
+  Flash:
+    Type: "System.String"
+    Value: "sb/flash.png"
+  Floor:
+    Type: "System.String"
+    Value: "sb/stage/kiai-frontF.png"
+  Back:
+    Type: "System.String"
+    Value: "sb/stage/back-kiaiF.png"
+  RandomSeed:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Random Seed"
+    BeginsGroup: "Common"
+Layers:
+  2e8f41ce70dd4040b34519870cf615ee:
+    Name: "KiaiBackground"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  b59fd1174b84477aa3031259b5860f69:
+    Name: "KiaiSecond"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  d77a111719564a879819d207a509d9f1:
+    Name: "BlackLine"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
